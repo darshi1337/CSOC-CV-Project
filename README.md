@@ -27,7 +27,3 @@ The model summary for one of the trained models with 128 nodes in the convolutio
 ## Chess Piece Recognition and Image Capture using Webcam
 
 The trained model is utilized to predict chess pieces from images captured through the webcam. OpenCV is employed to capture webcam images. The 'predict_chess_piece()' function processes the image and returns the predicted class (chess piece). The predicted class is then displayed on the image using OpenCV's 'putText()' function. The processed image is converted to RGB format and displayed using matplotlib. The loop continues until the 'q' key is pressed, allowing for continuous recognition of chess pieces from the webcam feed.
-
-## Suggestions
-
-Recommendations include utilizing GPU or distributed computing resources to reduce training time for large hyperparameter combinations. Optimizing data augmentation techniques based on domain knowledge and task requirements may lead to enhanced model performance. Additionally, experimenting with different CNN architectures and transfer learning with pre-trained models could further improve the model's accuracy and reduce training time.
